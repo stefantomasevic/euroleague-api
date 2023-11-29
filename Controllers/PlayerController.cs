@@ -95,17 +95,42 @@ namespace Euroleague.Controllers
 
         // POST: api/Player
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        //mora da prima player obican jer ti treba file a ne imagepath
         [HttpPost]
-        public async Task<ActionResult<Player>> PostPlayer(Player player)
+        public async Task<ActionResult<Player>> PostPlayer([FromForm] PlayerManipulationDTO playerDTO)
         {
-          if (_context.Players == null)
-          {
-              return Problem("Entity set 'ApplicationDbContext.Players'  is null.");
-          }
-            _context.Players.Add(player);
-            await _context.SaveChangesAsync();
+           
+            try
+            {
+                var player= _mapper.Map<Player>(playerDTO);
 
-            return CreatedAtAction("GetPlayer", new { id = player.Id }, player);
+                if (playerDTO.Picture != null && playerDTO.Picture.Length > 0)
+                {
+                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + playerDTO.Picture.FileName;
+
+                    // path for picture
+                    var filePath = Path.Combine("wwwroot", "images", "players", uniqueFileName);
+
+                    // save picture on server
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await playerDTO.Picture.CopyToAsync(fileStream);
+                    }
+
+                    // return path
+                    player.ImagePath=Path.Combine("images", "players", uniqueFileName);
+                }
+
+                var createdPlayer = await _repository.CreatePlayer(player);
+
+                var createdPlayerDTO = _mapper.Map<PlayerManipulationDTO>(createdPlayer);
+
+                return Ok(createdPlayerDTO);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return Conflict(ex.Message);
+            }
         }
 
         // DELETE: api/Player/5

@@ -17,5 +17,8 @@
         public string LogoPath { get; set; }
 
         public IEnumerable<PlayerDTO> Players { get; set; }
+
+          
+        
     }
 }

@@ -12,9 +12,17 @@ namespace Euroleague.Repository
         {
             _context = context;
         }
-        public Player CreatePlayer(Player player)
+        public async Task<Player> CreatePlayer(Player player)
         {
-            throw new NotImplementedException();
+            if (_context.Players.Any(p =>p.FirstName  == player.FirstName&& p.LastName==player.LastName))
+            {
+                throw new InvalidOperationException("Player alredy exist");
+            }
+            _context.Players.Add(player);
+
+            await _context.SaveChangesAsync();
+
+            return player;  
         }
 
        

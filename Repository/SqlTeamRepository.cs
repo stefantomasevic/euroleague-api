@@ -42,9 +42,6 @@ namespace Euroleague.Repository
         public async Task DeleteTeam(int id)
         {
 
-           
-            
-
 
             var deletedTeam = await _context.Teams.Include(t => t.Players).FirstOrDefaultAsync(t => t.Id == id);
 

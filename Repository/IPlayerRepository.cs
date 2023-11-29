@@ -6,7 +6,7 @@ namespace Euroleague.Repository
     {
         Task<IEnumerable<Player>> GetAllPlayers();
         Player GetPlayerById(int Id);
-        Player CreatePlayer(Player player);
+        Task<Player> CreatePlayer(Player player);
         Player EditPlayer(Player player);
         void DeletePlayer(Player player);
 

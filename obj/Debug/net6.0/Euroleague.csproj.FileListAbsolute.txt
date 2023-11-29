@@ -295,3 +295,7 @@ C:\Users\stefan.tomasevic\source\repos\Euroleague\Euroleague\bin\Debug\net6.0\ru
 C:\Users\stefan.tomasevic\source\repos\Euroleague\Euroleague\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\stefan.tomasevic\source\repos\Euroleague\Euroleague\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\stefan.tomasevic\source\repos\Euroleague\Euroleague\bin\Debug\net6.0\Euroleague.staticwebassets.runtime.json
+C:\Users\stefan.tomasevic\source\repos\Euroleague\Euroleague\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\stefan.tomasevic\source\repos\Euroleague\Euroleague\bin\Debug\net6.0\BCrypt.Net.dll
+C:\Users\stefan.tomasevic\source\repos\Euroleague\Euroleague\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\stefan.tomasevic\source\repos\Euroleague\Euroleague\bin\Debug\net6.0\System.Net.WebSockets.WebSocketProtocol.dll

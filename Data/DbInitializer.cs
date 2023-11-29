@@ -57,32 +57,32 @@ namespace Euroleague.Data
                         {
                         new Player
                         {
-                            FirstName = "Sergio",
-                            LastName = "Rodriguez",
+                            FirstName = "Alen",
+                            LastName = "Smailagic",
                             Age = 35,
                             Position = "Point Guard",
-                            Nationality = "Spain",
-                            ImagePath = "/images/sergio_rodriguez.jpg",
+                            Nationality = "Serbian",
+                            ImagePath = "/images/Players/alen.png",
                             TeamId = context.Teams.FirstOrDefault(t => t.Name == "Partizan")?.Id ?? 0
                         },
                         new Player
                         {
-                            FirstName = "Nando",
-                            LastName = "De Colo",
+                            FirstName = "Danilo",
+                            LastName = "Andjusic",
                             Age = 34,
                             Position = "Shooting Guard",
-                            Nationality = "France",
-                            ImagePath = "/images/nando_de_colo.jpg",
+                            Nationality = "Serbian",
+                            ImagePath = "/images/Players/Danilo-Andjusic.png",
                             TeamId = context.Teams.FirstOrDefault(t => t.Name == "Partizan")?.Id ?? 0
                         },
                         new Player
                         {
-                            FirstName = "Luka",
-                            LastName = "Doncic",
+                            FirstName = "Scottie",
+                            LastName = "Wilbekin",
                             Age = 22,
                             Position = "Point Forward",
                             Nationality = "Slovenia",
-                            ImagePath = "/images/luka_doncic.jpg",
+                            ImagePath = "/images/Players/Scottie-Wilbekin.png",
                             TeamId = context.Teams.FirstOrDefault(t => t.Name == "Real Madrid")?.Id ?? 0
                         },
                         new Player
@@ -92,7 +92,7 @@ namespace Euroleague.Data
                             Age = 25,
                             Position = "Bench",
                             Nationality = "Unknown",
-                            ImagePath = "/images/Logos/free.png",
+                            ImagePath = "/images/Players/Fakundo.png",
                             TeamId = context.Teams.FirstOrDefault(t => t.Name == "No Team")?.Id ?? 0
                         }
                         };

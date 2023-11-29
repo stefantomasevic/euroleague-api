@@ -10,6 +10,6 @@
         public string Nationality { get; set; }
         public string ImagePath { get; set; }
         public int TeamId { get; set; }
-        public string TeamName { get; set; }
+       
     }
 }

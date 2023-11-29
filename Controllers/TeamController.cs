@@ -11,6 +11,7 @@ using Euroleague.Repository;
 using Euroleague.DTO;
 using AutoMapper;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Euroleague.Controllers
 {
@@ -87,9 +88,10 @@ namespace Euroleague.Controllers
 
         // POST: api/Team/post
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        
+       
         [HttpPost("postTeam")]
-     
+       
+
         public async Task<ActionResult<Team>> PostTeam([FromForm] TeamManipulationDTO teamManDTO)
         {
             try
@@ -104,6 +106,13 @@ namespace Euroleague.Controllers
             }
 
 
+        }
+        [Authorize]
+        [HttpGet("authorizedMethod")]
+        public IActionResult AuthorizedMethod()
+        {
+            // Ovde možeš dodati bilo koju logiku koja ti je potrebna
+            return Ok(new { Message = "Authorized method executed successfully" });
         }
 
         // DELETE: api/Team/5
