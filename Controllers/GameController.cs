@@ -46,8 +46,15 @@ namespace Euroleague.Controllers
 
             return Ok(gameDetailsDTO);
 
+        }
 
+        [HttpPost]
+        public async Task<ActionResult<GameDetailsDTO>> CreateGame(GameManipulationDTO gameManipulationDTO)
+        {
+           // var game = await _repository.GameDetails(id);
+           // var gameDetailsDTO = _mapper.Map<GameDetailsDTO>(game);
 
+            return Ok(1);
 
         }
     }

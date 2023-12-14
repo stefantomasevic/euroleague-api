@@ -88,6 +88,10 @@ namespace Euroleague.Mappings
 
             CreateMap<Player, PlayerManipulationDTO>();
 
+
+            CreateMap<PlayerStatisticUpdateDTO, PlayerStatisticUpdate>()
+            .ForMember(dest => dest.Type, opt => opt.MapFrom(src => Enum.Parse<StatisticType>(src.Type)));
+
         }
 
 

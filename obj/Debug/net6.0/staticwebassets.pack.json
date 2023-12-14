@@ -57,8 +57,20 @@
       "PackagePath": "staticwebassets\\Images\\Logos\\real_madrid_logo.png"
     },
     {
+      "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\0356794d-5073-42d0-b3b1-1f952206a1f0_Tavares.png",
+      "PackagePath": "staticwebassets\\Images\\Players\\0356794d-5073-42d0-b3b1-1f952206a1f0_Tavares.png"
+    },
+    {
       "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\036d4b34-3e06-4f3b-984d-075e232b6999_Mario Hezonja web.png",
       "PackagePath": "staticwebassets\\Images\\Players\\036d4b34-3e06-4f3b-984d-075e232b6999_Mario Hezonja web.png"
+    },
+    {
+      "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\12633b5e-1ae9-441a-a0b3-2bc4856625fc_Tavares.png",
+      "PackagePath": "staticwebassets\\Images\\Players\\12633b5e-1ae9-441a-a0b3-2bc4856625fc_Tavares.png"
+    },
+    {
+      "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\179f9197-b847-4584-9b17-d7399bb2904c_Tavares.png",
+      "PackagePath": "staticwebassets\\Images\\Players\\179f9197-b847-4584-9b17-d7399bb2904c_Tavares.png"
     },
     {
       "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\1dbd2184-6c8b-4b64-b4e1-ba2274cc4ffe_Mario Hezonja web.png",
@@ -75,6 +87,10 @@
     {
       "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\2127b578-0d52-4424-bdf2-56660bb23f63_Tavares.png",
       "PackagePath": "staticwebassets\\Images\\Players\\2127b578-0d52-4424-bdf2-56660bb23f63_Tavares.png"
+    },
+    {
+      "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\2a7657d5-0fcf-4355-9050-515e5121b324_Mario Hezonja web.png",
+      "PackagePath": "staticwebassets\\Images\\Players\\2a7657d5-0fcf-4355-9050-515e5121b324_Mario Hezonja web.png"
     },
     {
       "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\31ceefcf-4226-40ed-b740-44d60c71c06d_Tavares.png",
@@ -117,6 +133,10 @@
       "PackagePath": "staticwebassets\\Images\\Players\\50228b1a-abed-4953-a1a2-448e363aef7f_Jan-Veseli.png"
     },
     {
+      "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\5d0be6e1-af0f-4ccf-8225-62d0a6ef2d49_Fakundo.png",
+      "PackagePath": "staticwebassets\\Images\\Players\\5d0be6e1-af0f-4ccf-8225-62d0a6ef2d49_Fakundo.png"
+    },
+    {
       "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\66bd6fd8-7e9c-4d73-89f5-82e96a9b6cfb_Tavares.png",
       "PackagePath": "staticwebassets\\Images\\Players\\66bd6fd8-7e9c-4d73-89f5-82e96a9b6cfb_Tavares.png"
     },
@@ -135,6 +155,10 @@
     {
       "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\77f224f5-a70b-4913-94f3-047283286712_Jan-Veseli.png",
       "PackagePath": "staticwebassets\\Images\\Players\\77f224f5-a70b-4913-94f3-047283286712_Jan-Veseli.png"
+    },
+    {
+      "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\7edd69cd-a29a-4a2d-a14c-c22b2e92e3ae_Jan-Veseli.png",
+      "PackagePath": "staticwebassets\\Images\\Players\\7edd69cd-a29a-4a2d-a14c-c22b2e92e3ae_Jan-Veseli.png"
     },
     {
       "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\819fb0fa-a859-474f-97d9-f8a339369546_Mario Hezonja web.png",
@@ -161,6 +185,10 @@
       "PackagePath": "staticwebassets\\Images\\Players\\99258bb0-778a-447f-9b31-9bdd26b8cf66_Jan-Veseli.png"
     },
     {
+      "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\9df45c4e-e60a-47b3-a684-a96253905d0e_Tavares.png",
+      "PackagePath": "staticwebassets\\Images\\Players\\9df45c4e-e60a-47b3-a684-a96253905d0e_Tavares.png"
+    },
+    {
       "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\Danilo-Andjusic.png",
       "PackagePath": "staticwebassets\\Images\\Players\\Danilo-Andjusic.png"
     },
@@ -171,6 +199,10 @@
     {
       "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\Scottie-Wilbekin.png",
       "PackagePath": "staticwebassets\\Images\\Players\\Scottie-Wilbekin.png"
+    },
+    {
+      "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\a6f6b8d7-ea1f-41e4-9fc6-923a794f4292_Tavares.png",
+      "PackagePath": "staticwebassets\\Images\\Players\\a6f6b8d7-ea1f-41e4-9fc6-923a794f4292_Tavares.png"
     },
     {
       "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\a975a151-781c-4d75-8eb7-03ebfa10133c_Mario Hezonja web.png",
@@ -201,6 +233,10 @@
       "PackagePath": "staticwebassets\\Images\\Players\\b807ed20-b21e-4156-b3f6-ac4f7a427d24_Tavares.png"
     },
     {
+      "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\b95e1fe3-517c-43e7-bc2a-2705b3b8d1e5_Danilo-Andjusic.png",
+      "PackagePath": "staticwebassets\\Images\\Players\\b95e1fe3-517c-43e7-bc2a-2705b3b8d1e5_Danilo-Andjusic.png"
+    },
+    {
       "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\c253564b-db31-4696-8c0e-7f09649ea264_Jan-Veseli.png",
       "PackagePath": "staticwebassets\\Images\\Players\\c253564b-db31-4696-8c0e-7f09649ea264_Jan-Veseli.png"
     },
@@ -227,6 +263,10 @@
     {
       "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\eaee8b00-6858-4e50-96c0-d6d614660f27_Tavares.png",
       "PackagePath": "staticwebassets\\Images\\Players\\eaee8b00-6858-4e50-96c0-d6d614660f27_Tavares.png"
+    },
+    {
+      "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\eb1b6c11-872f-4350-9b14-7d387d309859_Tavares.png",
+      "PackagePath": "staticwebassets\\Images\\Players\\eb1b6c11-872f-4350-9b14-7d387d309859_Tavares.png"
     },
     {
       "Id": "C:\\Users\\stefan.tomasevic\\source\\repos\\Euroleague\\Euroleague\\wwwroot\\Images\\Players\\ebef9442-4767-42d1-bc75-d00beb7ed0df_Mario Hezonja web.png",

@@ -17,7 +17,7 @@ namespace Euroleague.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-  
+
 
     public class TeamController : ControllerBase
     {
@@ -68,17 +68,18 @@ namespace Euroleague.Controllers
         // PUT: api/Team/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutTeam(int id,[FromForm]TeamManipulationDTO teamManDTO)
+        public async Task<IActionResult> PutTeam(int id, [FromForm] TeamManipulationDTO teamManDTO)
         {
-            try { 
-            var editedTeam = await _repository.EditTeam(id, teamManDTO);
-
-            if (editedTeam == null)
+            try
             {
-                return NotFound(); // Tim nije pronađen
-            }
+                var editedTeam = await _repository.EditTeam(id, teamManDTO);
 
-            return Ok(editedTeam);
+                if (editedTeam == null)
+                {
+                    return NotFound(); // Tim nije pronađen
+                }
+
+                return Ok(editedTeam);
             }
             catch (InvalidOperationException ex)
             {
@@ -88,9 +89,9 @@ namespace Euroleague.Controllers
 
         // POST: api/Team/post
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-       
+
         [HttpPost("postTeam")]
-       
+
 
         public async Task<ActionResult<Team>> PostTeam([FromForm] TeamManipulationDTO teamManDTO)
         {
@@ -119,7 +120,8 @@ namespace Euroleague.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTeam(int id)
         {
-            try {
+            try
+            {
                 await _repository.DeleteTeam(id);
 
                 return NoContent();
@@ -136,6 +138,6 @@ namespace Euroleague.Controllers
         }
 
 
-        
+
     }
 }

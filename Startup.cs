@@ -52,6 +52,7 @@ namespace Euroleague
             services.AddScoped<IPasswordHasher, PasswordHasher>();
             services.AddScoped<IGameRepository, SqlGameRepository>();
             services.AddScoped<ILineUpRepository, SqlLineUpRepository>();
+            services.AddScoped<IStatisticRepository, SqlStatisticRepository>();
 
             services.AddAutoMapper(typeof(AutoMapperprofile));
 
@@ -124,8 +125,9 @@ namespace Euroleague
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                
                 endpoints.MapHub<GameHubService>("/gameHub");
+                endpoints.MapControllers();
             });
            
         }
