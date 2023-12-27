@@ -57,5 +57,15 @@ namespace Euroleague.Controllers
             return Ok(1);
 
         }
+    
+        [HttpPost("     ")]
+        public async Task<ActionResult<GameDetailsDTO>> CreateSchedule(List<ScheduleDTO> scheduleDTO)
+        {
+            var schedule = scheduleDTO;
+
+            return Ok(schedule);
+
+        }
+
     }
 }
